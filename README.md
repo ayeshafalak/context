@@ -72,8 +72,17 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 -----About the App-----
 
-![image](https://github.com/ayeshafalak/context/assets/60551252/677ad72c-dd39-40e3-baf0-e01364e54d02)
+On render:
+![image](https://github.com/ayeshafalak/context/assets/60551252/b7a69c46-0e2c-4aad-a803-5da009c9f670)
 
-![image](https://github.com/ayeshafalak/context/assets/60551252/5940351d-2859-47ad-bf1e-fd85ddffac7c)
+On clicking button 1:
+The state isClicked is passed a prop to ChildComponent and then ChildComponent passes it to the GrandChildcomponent
+![image](https://github.com/ayeshafalak/context/assets/60551252/c1d52ac9-69d9-4dbc-91c6-099345da743b)
+
+On clicking button 2:
+The state isCtxClicked is not passed to the ChildComponent, instead it makes use of ContextAPi using the MyContext.js class.
+![image](https://github.com/ayeshafalak/context/assets/60551252/5c36361a-9143-4ceb-acd2-2402c3bab791)
+
+
 
 
